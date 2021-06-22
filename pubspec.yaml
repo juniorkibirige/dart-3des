@@ -1,6 +1,6 @@
 name: dart_3des
 description: Triple DES and DES block cipher implementation ported from CryptoJS
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/juniorkibirige/tripledes-dart
 # author: Junior Lawrence Kibirige <junior.kibirige@students.mak.ac.ug>
 

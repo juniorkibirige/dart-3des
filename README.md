@@ -11,6 +11,18 @@ This is ported from CryptoJS.  The latest version can be found
 [crypto-js2]: https://github.com/sytelus/CryptoJS
 
 
+ ### Installing
+Add the dependency
+
+In your `pubspec.yaml` file add:
+
+1. `dart_3des: 1.0.0`
+- If in flutter
+2. run `flutter pub get`
+- If in dart 
+3. run `dart pub get`
+
+
 ## Example
 
 ```dart
@@ -19,7 +31,7 @@ import 'package:dart_3des/dart_3des.dart';
 main() {
   var key = "cipher";
   var blockCipher = new BlockCipher(new DESEngine(), key);
-  var message = "Uganda is a really a difficult country";
+  var message = "Uganda is a really difficult country";
   var ciphertext = blockCipher.encodeB64(message);
   var decoded = blockCipher.decodeB64(ciphertext);
 
