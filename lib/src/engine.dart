@@ -1,5 +1,5 @@
 import 'dart:math';
-import 'package:tripledes/src/utils.dart';
+import 'package:dart_3des/src/utils.dart';
 
 abstract class Engine {
   void init(bool forEncryption, List<int> key);

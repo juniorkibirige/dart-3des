@@ -290,13 +290,13 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "tripledes",
+      "name": "dart_3des",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-06-22T18:04:53.126604Z",
+  "generated": "2021-06-22T18:20:37.879030Z",
   "generator": "pub",
   "generatorVersion": "2.13.3"
 }

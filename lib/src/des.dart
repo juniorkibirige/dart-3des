@@ -1,6 +1,6 @@
-import 'package:tripledes/src/constants.dart';
-import 'package:tripledes/src/engine.dart';
-import 'package:tripledes/src/utils.dart';
+import 'package:dart_3des/src/constants.dart';
+import 'package:dart_3des/src/engine.dart';
+import 'package:dart_3des/src/utils.dart';
 
 class DESEngine extends BaseEngine {
   List<List<int?>> _subKeys = [];
