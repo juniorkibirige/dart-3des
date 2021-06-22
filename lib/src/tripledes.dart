@@ -6,7 +6,7 @@ class TripleDESEngine extends BaseEngine {
 
   int get blockSize => 64 ~/ 32;
 
-  int processBlock(List<int> M, int offset) {
+  int processBlock(List<int?> M, int offset) {
     var des1 = new DESEngine();
     var des2 = new DESEngine();
     var des3 = new DESEngine();

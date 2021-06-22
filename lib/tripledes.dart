@@ -18,14 +18,16 @@ class BlockCipher {
     engine.init(true, utf8ToWords(key));
     var result = engine.process(utf8ToWords(message));
     engine.reset();
-    return wordsToUtf8(result);
+    var encoded = wordsToUtf8(result);
+    return encoded;
   }
 
   String decode(String ciphertext) {
     var b = engine..init(false, utf8ToWords(key));
     var r = b.process(utf8ToWords(ciphertext));
     engine.reset();
-    return wordsToUtf8(r);
+    var decoded = wordsToUtf8(r);
+    return decoded;
   }
 
   String encodeB64(String message) {
